@@ -46,6 +46,7 @@ function RenderLandingPage(props) {
           <h2>Search Grant Rates Over Time</h2>
         </div>
       </div>
+
       <div className="view-more-data-btn-container">
         <Button
           type="default"
