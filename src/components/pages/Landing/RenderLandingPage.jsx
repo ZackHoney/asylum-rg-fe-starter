@@ -32,7 +32,7 @@ function RenderLandingPage(props) {
       </div>
 
       {/* Graphs Section: Add code here for the graphs section for your first ticket */}
-      {/* <div className="graphs-section"> */}
+      <div className="graphs-section"> </div>
       <div className="view-more-data-btn-container">
         <Button
           type="default"
