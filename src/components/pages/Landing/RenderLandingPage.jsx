@@ -84,7 +84,7 @@ function RenderLandingPage(props) {
       <div>
         {/* Bottom Section: Add code here for the graphs section for your first ticket */}
         <div className="bottom-section">
-          <h1>Systemic Disparity Insights</h1>
+          <h1 className="bottom-section-h1">Systemic Disparity Insights</h1>
           <div className="facts">
             <h2>36%</h2>
             <p>

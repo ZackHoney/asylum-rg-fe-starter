@@ -8,6 +8,54 @@
 @tablet-large: ~"(min-width: 769px) and (max-width: 1024px)";
 @laptop: ~"(min-width: 1025px) and (max-width: 1280px)";
 
+@font-face {
+    font-family: 'AcuminProItalic';
+    src: url('./assets/Fonts/Acumin_Pro_Italic/Acumin_Pro_Italic.otf') format('embedded-opentype'),
+         url('./assets/Fonts/Acumin_Pro_Italic/Acumin_Pro_Italic.woff2') format('woff2'),
+         url('./assets/Fonts/Acumin_Pro_Italic/Acumin_Pro_Italic.woff') format('woff'),
+         url('./assets/Fonts/Acumin_Pro_Italic/Acumin_Pro_Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AcuminProMedium';
+    src: url('./assets/Fonts/Acumin_Pro_Medium/Acumin_Pro_Medium.otf') format('embedded-opentype'),
+         url('./assets/Fonts/Acumin_Pro_Medium/Acumin_Pro_Medium.woff2') format('woff2'),
+         url('./assets/Fonts/Acumin_Pro_Medium/Acumin_Pro_Medium.woff') format('woff'),
+         url('./assets/Fonts/Acumin_Pro_Medium/Acumin_Pro_Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AcuminProMediumItalic';
+    src: url('./assets/Fonts/Acumin_Pro_Medium_Italic/Acumin_Pro_Medium_Italic.otf') format('embedded-opentype'),
+         url('./assets/Fonts/Acumin_Pro_Medium_Italic/Acumin_Pro_Medium_Italic.woff2') format('woff2'),
+         url('./assets/Fonts/Acumin_Pro_Medium_Italic/Acumin_Pro_Medium_Italic.woff') format('woff'),
+         url('./assets/Fonts/Acumin_Pro_Medium_Italic/Acumin_Pro_Medium_Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AcuminProRegular';
+    src: url('./assets/Fonts/Acumin_Pro_Regular/Acumin_Pro_Regular.otf') format('embedded-opentype'),
+         url('./assets/Fonts/Acumin_Pro_Regular/Acumin_Pro_Regular.woff2') format('woff2'),
+         url('./assets/Fonts/Acumin_Pro_Regular/Acumin_Pro_Regular.woff') format('woff'),
+         url('./assets/Fonts/Acumin_Pro_Regular/Acumin_Pro_Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BeatriceRegular';
+    src: url('./assets/Fonts/Beatrice_Regular/Beatrice_Regular.otf') format('embedded-opentype'),
+         url('./assets/Fonts/Beatrice_Regular/Beatrice_Regular.woff2') format('woff2'),
+         url('./assets/Fonts/Beatrice_Regular/Beatrice_Regular.woff') format('woff'),
+         url('./assets/Fonts/Beatrice_Regular/Beatrice_Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MonetaBold';
+    src: url('./assets/Fonts/Moneta_Bold/Moneta_Bold.otf') format('embedded-opentype'),
+         url('./assets/Fonts/Moneta_Bold/Moneta_Bold.woff2') format('woff2'),
+         url('./assets/Fonts/Moneta_Bold/Moneta_Bold.woff') format('woff'),
+         url('./assets/Fonts/Moneta_Bold/Moneta_Bold.ttf') format('truetype');
+}
+
 .header {
     background-color: @main-color;
     display:flex;
@@ -46,7 +94,7 @@
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-    font-family: 'Moneta_Bold';
+    font-family: 'moneta';
 }
 
 .graphs-section img{
@@ -100,13 +148,36 @@
 }
 
 .middle-section-text-container h3 {
-    font-family: 'acumin';
+    font-family: 'moneta';
     font-size: 1.4rem;
 }
 
-// .bottom-section {
-//      ADD THIS BACK IN WHEN YOU HAVE A BOTTOM SECTION
-// }
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-section-h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.bottom-section h2{
+   font-family:MonetaBold;
+   font-size: 3rem;
+}
+
+.bottom-section p{
+    font-family: moneta;
+    font-size: 1.2rem;
+}
+
+.facts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .back-to-top {
     width: 8%;
