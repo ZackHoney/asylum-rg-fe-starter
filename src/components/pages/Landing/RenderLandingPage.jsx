@@ -83,8 +83,8 @@ function RenderLandingPage(props) {
       </div>
       <div>
         {/* Bottom Section: Add code here for the graphs section for your first ticket */}
+        <h1 className="bottom-section-h1">Systemic Disparity Insights</h1>
         <div className="bottom-section">
-          <h1 className="bottom-section-h1">Systemic Disparity Insights</h1>
           <div className="facts">
             <h2>36%</h2>
             <p>
@@ -96,7 +96,7 @@ function RenderLandingPage(props) {
           <div className="facts">
             <h2>5%</h2>
             <p>
-              The New York asylum office grant rate dropped to 5 percent inf
+              The New York asylum office grant rate dropped to 5 percent in
               fiscal year 2020.
             </p>
           </div>
@@ -108,6 +108,8 @@ function RenderLandingPage(props) {
               asylum office.
             </p>
           </div>
+        </div>
+        <div className="bottom-btn">
           <Button
             type="default"
             style={{ backgroundColor: '#404C4A', color: '#FFFFFF' }}
