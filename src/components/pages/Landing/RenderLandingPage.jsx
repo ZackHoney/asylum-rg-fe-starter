@@ -58,6 +58,7 @@ function RenderLandingPage(props) {
 
         <Button
           type="default"
+          disabled
           style={{ backgroundColor: '#404C4A', color: '#FFFFFF' }}
           onClick={() => history.push('/graphs')}
         >
@@ -111,6 +112,7 @@ function RenderLandingPage(props) {
         </div>
         <div className="bottom-btn">
           <Button
+            disabled
             type="default"
             style={{ backgroundColor: '#404C4A', color: '#FFFFFF' }}
             onClick={() => history.push('/graphs')}
