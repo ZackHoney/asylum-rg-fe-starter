@@ -8,7 +8,12 @@ const LoginButton = () => {
     <Button
       type="default"
       className="btn-btn-primary-btn-block"
-      style={{ backgroundColor: '#404C4A', color: '#FFFFFF' }}
+      style={{
+        backgroundColor: '#404C4A',
+        color: '#FFFFFF',
+        display: 'flex',
+        alignSelf: 'center',
+      }}
       onClick={() => loginWithRedirect()}
     >
       Log In
