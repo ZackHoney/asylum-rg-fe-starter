@@ -23,6 +23,9 @@ import { configureStore } from '@reduxjs/toolkit';
 import reducer from './state/reducers';
 import { colors } from './styles/data_vis_colors';
 
+import { Auth0Provider } from '@auth0/auth0-react';
+import ProfilePage from './components/pages/ProfilePage/ProfilePage';
+
 const { primary_accent_color } = colors;
 
 const store = configureStore({ reducer: reducer });
@@ -54,6 +57,9 @@ export function App() {
       <Switch>
         <Route path="/" exact component={LandingPage} />
         <Route path="/graphs" component={GraphsContainer} />
+        <Auth0Provider>
+          <Route path="/profile" component={ProfilePage} />
+        </Auth0Provider>
         <Route component={NotFoundPage} />
       </Switch>
       <Footer
