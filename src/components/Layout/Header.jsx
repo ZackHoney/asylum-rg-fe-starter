@@ -29,7 +29,7 @@ function HeaderContent() {
         <Link to="/graphs" style={{ color: '#E2F0F7' }}>
           Graphs
         </Link>
-        <Link component={LoginButton} />
+        <Link to="/profile" component={LoginButton} />
       </div>
     </div>
   );

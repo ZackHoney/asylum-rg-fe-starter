@@ -7,7 +7,7 @@ const LoginButton = () => {
   return (
     <Button
       type="default"
-      className="btn-btn-primary-btn-block"
+      className="btn btn-primary btn-block"
       style={{
         backgroundColor: '#404C4A',
         color: '#FFFFFF',
