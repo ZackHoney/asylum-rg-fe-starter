@@ -22,7 +22,7 @@ function HeaderContent() {
           <Image width={100} src={Logo} preview={false} alt="HRF logo white" />
         </a>
       </div>
-      <div>
+      <div className="header-links">
         <Link to="/" style={{ color: '#E2F0F7', paddingRight: '75px' }}>
           Home
         </Link>
