@@ -25,7 +25,6 @@ import { colors } from './styles/data_vis_colors';
 
 import Auth0ProviderWithHistory from './auth/auth0-provider-with-history';
 import { Profile } from './components/pages/ProfilePage';
-// import ProtectedRoute from './styles/protected-route';
 
 const { primary_accent_color } = colors;
 
